@@ -22,6 +22,7 @@ object Form1: TForm1
     Width = 620
     Height = 265
     Anchors = [akLeft, akTop, akRight, akBottom]
+    Proportional = True
     Stretch = True
   end
   object Panel1: TPanel
