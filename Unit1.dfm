@@ -22,6 +22,7 @@ object Form1: TForm1
     Width = 620
     Height = 265
     Anchors = [akLeft, akTop, akRight, akBottom]
+    Stretch = True
   end
   object Panel1: TPanel
     Left = 0
@@ -65,9 +66,10 @@ object Form1: TForm1
     Top = 8
     Width = 620
     Height = 73
-    Anchors = [akLeft, akTop, akRight, akBottom]
+    Anchors = [akLeft, akTop, akRight]
     ItemHeight = 15
     TabOrder = 1
+    ExplicitWidth = 616
   end
   object ApplicationEvents1: TApplicationEvents
     OnActivate = OnActivate
