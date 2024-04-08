@@ -31,8 +31,9 @@ void __fastcall TForm1::BtnLoadPicClick(TObject *Sender)
       Image1->Picture->LoadFromFile(OpenPictureDialog1->FileName);
     else
       // Otherwise, raise an exception.
-      throw(Exception("File does not exist."));
-}
+	  throw(Exception("File does not exist."));
+	TCanvas canvas = this->Image->Canvas;
+  }
 
 
 //---------------------------------------------------------------------------

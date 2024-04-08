@@ -16,12 +16,13 @@ object Form1: TForm1
     628
     442)
   TextHeight = 15
-  object Image1: TImage
-    Left = 0
+  object Image: TImage
+    Left = 176
     Top = 96
-    Width = 620
+    Width = 444
     Height = 265
     Anchors = [akLeft, akTop, akRight, akBottom]
+    Center = True
     Proportional = True
     Stretch = True
   end
@@ -72,10 +73,13 @@ object Form1: TForm1
     TabOrder = 1
     ExplicitWidth = 616
   end
-  object ApplicationEvents1: TApplicationEvents
-    OnActivate = OnActivate
-    Left = 320
-    Top = 336
+  object Panel2: TPanel
+    Left = 8
+    Top = 87
+    Width = 162
+    Height = 274
+    Anchors = [akLeft, akTop, akBottom]
+    TabOrder = 2
   end
   object OpenPictureDialog1: TOpenPictureDialog
     Filter = 
@@ -87,7 +91,7 @@ object Form1: TForm1
       's (*.ico)|*.ico|M'#233'tafichiers '#233'volu'#233's (*.emf)|*.emf|M'#233'tafichiers ' +
       '(*.wmf)|*.wmf|Images TIFF (*.tif)|*.tif|Images TIFF (*.tiff)|*.t' +
       'iff'
-    Left = 104
+    Left = 88
     Top = 400
   end
 end

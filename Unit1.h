@@ -19,9 +19,9 @@ __published:	// Composants gérés par l'EDI
 	TButton *BtnQuit;
 	TButton *BtnLoadPic;
 	TListBox *ListBox1;
-	TApplicationEvents *ApplicationEvents1;
-	TImage *Image1;
+	TImage *Image;
 	TOpenPictureDialog *OpenPictureDialog1;
+	TPanel *Panel2;
 	void __fastcall BtnQuitClick(TObject *Sender);
 	void __fastcall BtnLoadPicClick(TObject *Sender);
 	void __fastcall FormCreate(TObject *Sender);
